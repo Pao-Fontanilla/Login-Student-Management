@@ -1,0 +1,141 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form p {
+    margin: 10px 0;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #357abd;
+}
+
+/* Student Display Card */
+.container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container h3 {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.editAndDelete {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.editAndDelete a, li {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.editAndDelete a:hover {
+    color: #357abd;
+    text-decoration: underline;
+}
+
+table, th, td {
+	border:1px solid black;
+}
+
+.return a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.return a:hover {
+    color: #357abd;
+    text-decoration: underline;
+}
+
+table {
+	width: 100%; 
+	margin: auto; 
+	background-color: #fff;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 12px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
